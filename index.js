@@ -1,6 +1,9 @@
 const express = require("express");
 const cloudinary = require("./cloudinary");
 const uploader = require("./multer");
+const dotenv = require("dotenv");
+
+dotenv.config();
 
 const app = express();
 
